@@ -74,6 +74,15 @@ font-weight: bold;
 .spotifyPlaylists {
     padding: 16px;
 }
+.spotifyPlaylists .card {
+    width: 200px;
+    padding:10px 15px 20px 15px ;
+    padding: 23px;
+    border-radius: 8px;
+}
+.card img{
+    border-radius: 10px;
+}
 .spotifyPlaylists h1 {
     padding: 16px;
     background-color: aqua;
@@ -109,13 +118,13 @@ font-weight: bold;
     height: 28px;
     background-color: #1fdf64;
     border-radius: 50%;
-    padding: 4px;
+    padding: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 88px;
-    right: 17px;
+    /* bottom: 88px;
+    right: 17px; */
     opacity: var(--a);
     transition: all 1s ease-out;
 }
